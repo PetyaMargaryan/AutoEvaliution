@@ -68,7 +68,7 @@ class HomeController extends Controller
 
     public function store()
     {
-        dd($request->input());
+        dd(1111);
     }
 
 }
