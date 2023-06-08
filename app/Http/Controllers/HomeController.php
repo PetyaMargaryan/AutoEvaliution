@@ -70,5 +70,16 @@ class HomeController extends Controller
     {
         dd($request->input());
     }
-
+    public function store3(Request $request)
+    {
+        dd($request->input());
+    }
+    public function store2(Request $request)
+    {
+        dd($request->input());
+    }
+    public function store1(Request $request)
+    {
+        dd($request->input());
+    }
 }
