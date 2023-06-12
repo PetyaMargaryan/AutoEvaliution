@@ -65,10 +65,4 @@ class HomeController extends Controller
         $file->move(public_path('storage/cars'), $imageName);
         return url("storage/cars/$imageName");
     }
-
-    public function store(Request $request)
-    {
-        dd($request->input());
-    }
-
 }
