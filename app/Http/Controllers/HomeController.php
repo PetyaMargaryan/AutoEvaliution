@@ -70,5 +70,17 @@ class HomeController extends Controller
     {
         dd($request->input());
     }
+    public function storew(Request $request)
+    {
+        dd($request->input());
+    }
+    public function storee(Request $request)
+    {
+        dd($request->input());
+    }
+    public function xxx(Request $request)
+    {
+        dd($request->input());
+    }
 
 }
