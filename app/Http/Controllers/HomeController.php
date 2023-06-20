@@ -66,7 +66,15 @@ class HomeController extends Controller
         return url("storage/cars/$imageName");
     }
 
-    public function store(Request $request)
+    public function added(Request $request)
+    {
+        dd($request->input());
+    }
+    public function remove(Request $request)
+    {
+        dd($request->input());
+    }
+    public function delete(Request $request)
     {
         dd($request->input());
     }
