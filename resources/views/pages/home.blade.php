@@ -24,6 +24,17 @@
                                 </p>
                             </div>
                         </div>
+                        <div class="w-full md:w-1/3 flex flex-col flex-grow flex-shrink">
+                            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                                <p class="w-full text-gray-600 text-xs md:text-sm pt-6 px-6">GETTING STARTED</p>
+                                <div class="w-full font-bold text-xl text-gray-900 px-6">
+                                    {{ $car->name }}
+                                </div>
+                                <p class="text-gray-800 text-base px-6 mb-5">
+                                    {{ $car->small_description }}
+                                </p>
+                            </div>
+                        </div>
                     </a>
                 </div>
             @endforeach
