@@ -71,4 +71,8 @@ class HomeController extends Controller
         dd($request->input());
     }
 
+    public function show(Request $request)
+    {
+        dd($request->input());
+    }
 }
