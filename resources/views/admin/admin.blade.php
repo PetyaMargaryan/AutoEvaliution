@@ -202,6 +202,11 @@
         $('#drawer-create-product-default').hide()
     })
 
+    $('.closeCreateProduct').click(function () {
+        console.log(5555)
+    })
+
+
     $('.select-image').click(function () {
         const name = $(this).attr('data-name');
         $('#' + name).click()
