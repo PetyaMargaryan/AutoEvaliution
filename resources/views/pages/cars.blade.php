@@ -26,12 +26,14 @@
                         <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
                             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
                                 <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
+                                <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
                             </div>
                         </div>
                     @endfor
                 </div>
 
                 <div class="flex h-full overflow-hidden shadow-lg pt-12 pb-5 px-6 font-bold">
+                    <h3>Similar Vehicles</h3>
                     <h3>Similar Vehicles</h3>
                 </div>
 
@@ -46,8 +48,10 @@
                                 <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
                                     <div class="w-full font-bold text-xl text-gray-900 px-6 pt-6">
                                         {{ $car->name }}
+                                        {{ $car->name }}
                                     </div>
                                     <p class="text-gray-800 text-base px-6 mb-5">
+                                        {{ $car->small_description }}
                                         {{ $car->small_description }}
                                     </p>
                                 </div>
