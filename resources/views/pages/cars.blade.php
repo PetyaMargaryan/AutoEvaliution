@@ -20,6 +20,9 @@
                 </div>
                 <div class="flex h-full overflow-hidden shadow-lg text-lg px-6 pb-2">
                     <p>{{ $car->description }}</p>
+                    <p>{{ $car->description }}</p>
+                    <p>{{ $car->description }}</p>
+                    <p>{{ $car->description }}</p>
                 </div>
                 <div class="flex flex-wrap justify-between pt-5 -mx-6">
                     @for($i = 0; $i <= 1; $i++)
