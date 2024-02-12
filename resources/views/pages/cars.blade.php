@@ -15,6 +15,9 @@
                             <p class="text-gray-800 text-base px-6 mb-5">
                                 {{ $car->small_description }}
                             </p>
+                            <p class="text-gary-800 text-base px-6 mb-5">
+                                {{ $car->small_description }}
+                            </p>
                         </div>
                     </div>
                 </div>
