@@ -17,6 +17,8 @@
                                 {{ $car->small_description }}
                                 {{ $car->small_description }}
                                 {{ $car->small_description }}
+                                {{ $car->small_description }}
+                                {{ $car->small_description }}
                             </p>
                         </div>
                     </div>
