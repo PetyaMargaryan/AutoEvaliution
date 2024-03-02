@@ -29,6 +29,8 @@
                                 <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
                                 <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
                                 <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
+                                <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
+                                <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
                             </div>
                         </div>
                     @endfor
