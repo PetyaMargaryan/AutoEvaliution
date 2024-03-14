@@ -11,8 +11,12 @@
                         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
                             <div class="w-full font-bold text-xl text-gray-900 px-6 pt-6">
                                 {{ $car->name }}
+                                {{ $car->name }}
+                                {{ $car->name }}
                             </div>
                             <p class="text-gray-800 text-base px-6 mb-5">
+                                {{ $car->small_description }}
+                                {{ $car->small_description }}
                                 {{ $car->small_description }}
                             </p>
                         </div>
