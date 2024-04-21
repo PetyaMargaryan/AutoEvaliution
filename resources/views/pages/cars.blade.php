@@ -14,17 +14,25 @@
                             </div>
                             <p class="text-gray-800 text-base px-6 mb-5">
                                 {{ $car->small_description }}
+                                {{ $car->small_description }}
+                                {{ $car->small_description }}
+                                {{ $car->small_description }}
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="flex h-full overflow-hidden shadow-lg text-lg px-6 pb-2">
                     <p>{{ $car->description }}</p>
+                    <p>{{ $car->description }}</p>
+                    <p>{{ $car->description }}</p>
                 </div>
                 <div class="flex flex-wrap justify-between pt-5 -mx-6">
                     @for($i = 0; $i <= 1; $i++)
                         <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
                             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                                <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
+                                <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
+                                <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
                                 <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
                             </div>
                         </div>
