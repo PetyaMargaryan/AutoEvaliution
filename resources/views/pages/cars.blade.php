@@ -6,7 +6,6 @@
                 <div class="flex h-full bg-white rounded overflow-hidden shadow-lg mb-12">
                     <div class="w-full md:w-2/3 rounded-t">
                         <img src="{{ $car->image }}" class="h-full w-full shadow">
-                        <img src="{{ $car->image }}" class="h-full w-full shadow">
                     </div>
                     <div class="w-full md:w-1/3 flex flex-col flex-grow flex-shrink">
                         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
@@ -21,7 +20,6 @@
                     </div>
                 </div>
                 <div class="flex h-full overflow-hidden shadow-lg text-lg px-6 pb-2">
-                    <p>{{ $car->description }}</p>
                     <p>{{ $car->description }}</p>
                     <p>{{ $car->description }}</p>
                 </div>
