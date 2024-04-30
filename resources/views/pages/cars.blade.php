@@ -29,8 +29,6 @@
                             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
                                 <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
                                 <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
-                                <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
-                                <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
                             </div>
                         </div>
                     @endfor
