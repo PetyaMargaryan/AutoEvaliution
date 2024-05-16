@@ -97,11 +97,6 @@
                         </div>
                     @endfor
                 </div>
-
-                <div class="flex h-full overflow-hidden shadow-lg pt-12 pb-5 px-6 font-bold">
-                    <h3>Similar Vehicles</h3>
-                </div>
-                11112
                 <div class="flex h-full overflow-hidden shadow-lg pt-12 pb-5 px-6 font-bold">
                     <h3>Similar Vehicles</h3>
                 </div>
