@@ -89,13 +89,6 @@
                             </div>
                         </div>
                     @endfor
-                        @for($i = 0; $i <= 1; $i++)
-                        <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
-                            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-                                <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
-                            </div>
-                        </div>
-                    @endfor
                 </div>
                 <div class="flex h-full overflow-hidden shadow-lg pt-12 pb-5 px-6 font-bold">
                     <h3>Similar Vehicles</h3>
