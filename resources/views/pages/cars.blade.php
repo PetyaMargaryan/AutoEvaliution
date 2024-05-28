@@ -58,14 +58,12 @@
                     <p>{{ $car->description }}</p>
                     <p>{{ $car->description }}</p>
                     <p>{{ $car->description }}</p>
-                    <p>{{ $car->description }}</p>
-                    <p>{{ $car->description }}</p>
                 </div>
                 <div class="flex flex-wrap justify-between pt-5 -mx-6">
                         @for($i = 0; $i <= 1; $i++)
                         <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
                             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
-                                <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t">
+                                <img src="{{ $car->small_images[$i] }}" class="h-full w-full rounded-t" alt="">
                             </div>
                         </div>
                     @endfor
