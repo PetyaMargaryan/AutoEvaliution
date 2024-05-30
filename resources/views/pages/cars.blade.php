@@ -53,9 +53,6 @@
                     <p>{{ $car->description }}</p>
                     <p>{{ $car->description }}</p>
                     <p>{{ $car->description }}</p>
-                    <p>{{ $car->description }}</p>
-                    <p>{{ $car->description }}</p>
-                    <p>{{ $car->description }}</p>
                 </div>
                 <div class="flex flex-wrap justify-between pt-5 -mx-6">
                         @for($i = 0; $i <= 1; $i++)
