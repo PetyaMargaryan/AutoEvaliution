@@ -27,8 +27,6 @@
                                 {{ $car->name }}
                                 {{ $car->name }}
                                 {{ $car->name }}
-                                {{ $car->name }}
-                                {{ $car->name }}
                             </div>
                             <p class="text-gray-800 text-base px-6 mb-5">
                                 {{ $car->small_description }}
