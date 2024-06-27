@@ -13,8 +13,7 @@
                         <img src="{{ $car->image }}" class="h-full w-full shadow">
                         <img src="{{ $car->image }}" class="h-full w-full shadow">
                         <img src="{{ $car->image }}" class="h-full w-full shadow">
-                        <img src="{{ $car->image }}" class="h-full w-full shadow">
-                        <img src="{{ $car->image }}" class="h-full w-full shadow">
+
 
                     </div>
                     <div class="w-full md:w-1/3 flex flex-col flex-grow flex-shrink">
